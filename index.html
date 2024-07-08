@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Couleur test</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="controls">
+        <input type="color" id="color-picker" value="#000000">
+        <input type="text" id="color-input" placeholder="#000000">
+        <button id="add-square-btn">Ajouter un carré</button>
+        <button id="show-presets-btn">Modèles Favoris</button>
+    </div>
+    <div class="preset-colors" id="preset-colors" style="display: none;">
+        <div class="preset" style="background-color: #E5D9D9;" data-color="#E5D9D9">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>7604 C</p>
+                <p>Lavender Bikini</p>
+                <p>RGB: 229 217 217</p>
+                <p>HEX: #E5D9D9</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #80858B;" data-color="#80858B">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>877 C</p>
+                <p>Milestone</p>
+                <p>RGB: 128 133 139</p>
+                <p>HEX: #80858B</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #EAA45C;" data-color="#EAA45C">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>7411 C</p>
+                <p>Pie Citrouille</p>
+                <p>RGB: 234 164 92</p>
+                <p>HEX: #EAA45C</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #424348;" data-color="#424348">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>466 C</p>
+                <p>Stargazing</p>
+                <p>RGB: 66 67 72</p>
+                <p>HEX: #424348</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #D7D7E3;" data-color="#D7D7E3">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>7443 C</p>
+                <p>Brume Céleste</p>
+                <p>RGB: 215 215 227</p>
+                <p>HEX: #D7D7E3</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #2C1A1A;" data-color="#2C1A1A">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>4975 C</p>
+                <p>Girouette</p>
+                <p>RGB: 44 26 26</p>
+                <p>HEX: #2C1A1A</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #A7CBD8;" data-color="#A7CBD8">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>552 C</p>
+                <p>Bleu Matinal Alpin</p>
+                <p>RGB: 167 203 216</p>
+                <p>HEX: #A7CBD8</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #372E4D;" data-color="#372E4D">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>5265 C</p>
+                <p>Aura Astrale</p>
+                <p>RGB: 55 46 77</p>
+                <p>HEX: #372E4D</p>
+            </div>
+        </div>
+        <div class="preset" style="background-color: #EB6A9C;" data-color="#EB6A9C">
+            <div class="text-info">
+                <h1>PANTONE</h1>
+                <p>190 C</p>
+                <p>Ombre Azalée Rose</p>
+                <p>RGB: 235 106 156</p>
+                <p>HEX: #EB6A9C</p>
+            </div>
+        </div>
+    </div>
+    <div class="grid-container" id="grid-container"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
